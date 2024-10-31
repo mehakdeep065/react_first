@@ -1,0 +1,104 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 98.6vw;
+    /* height: 13vw; */
+    /* background-color: coral; */
+/* }
+
+.container .box{
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(146, 83, 206, 0.363);
+    border-radius: 1.2rem;
+}
+.box .inputbox{
+    padding: 1rem;
+}
+.box input{
+    border: 1px solid white;
+    background-color: rgba(102, 89, 89, 0.836);
+    padding:1rem;
+    border-radius: 1rem;
+
+}
+.box h2,label{
+    font-family:cursive
+} */ 
+ *{
+    font-family: cursive;
+ }
+.container{
+    width: -webkit-fill-available;
+    margin: 0  auto;
+
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-image: url('https://images.pexels.com/photos/1261731/pexels-photo-1261731.jpeg?auto=compress&cs=tinysrgb&w=600');
+    /* object-position: center top; */
+    
+  
+}
+.container h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.container .formbox{
+    width: 95%;
+    margin: 4vw;
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.603);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+}
+.formbox div,h1{
+    padding: 1rem;
+
+    font-size: 2rem;
+}
+.formbox input{
+    
+    padding: 0.8rem 0rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: rgba(236, 236, 236, 0.466)
+}
+.submit_button button[type=submit]{
+margin: 0 6rem;
+padding: 10px;
+font-size: 2rem ;
+border-radius: 10px;
+color:white;
+border: 2px solid white;
+}
+.formbox  a{
+    color: aliceblue;
+}
+@media (min-width: 1280px){
+.container {
+    max-width: 100%;
+}
+.container .formbox{
+    max-width: 100%;
+}
+.container .formbox input{
+    width: 100%;
+}
+
+}
+.login_button span{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+}
