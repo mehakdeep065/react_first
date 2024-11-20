@@ -49,7 +49,7 @@ function SliderPage() {
 
         <div className="slider-container lg:w-[92.1rem]">
           <Slider {...settings}>
-            <div>
+<div>
               <div className='bg-[#FAFAFA] p-10 my-10 mx-10 rounded-3xl shadow-lg cursor cursor-pointer hover:-translate-y-6 duration-100'>
                 <div>
                   <img src="public\images\recipes\img1.png" alt="slider img" />
@@ -101,7 +101,7 @@ function SliderPage() {
             </div>
             <div>
                 <div className='bg-[#FAFAFA] p-10 my-10 mx-10 rounded-3xl shadow-lg cursor cursor-pointer hover:-translate-y-6 duration-100'>
-                <div>
+                <div>            
                   <img src="public\images\recipes\img1.png" alt="slider img" />
                 </div>
                 <h5>mix-veg salad</h5>

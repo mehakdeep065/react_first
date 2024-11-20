@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Jourany() {
   return (
@@ -8,7 +9,7 @@ function Jourany() {
           <h5 className='title py-6'>Our Story & Services</h5>
           <h3 className='subtitle py-6'>Our Culinary Journey And Services</h3>
           <p className='pera py-10 '>Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
-          <button className=" btn bg-green-400 px-6 mx-4 py-3 font-semibold text-white rounded-full w-1/3 ">Explore</button>
+        <button className=" btn bg-green-400 px-6 mx-4 py-3 font-semibold text-white rounded-full w-1/3 "><Link to= "/About">Explore</Link></button>
         </div>
 
         <div className='flex justify-center' >

@@ -11,6 +11,7 @@ import About from './pages/About'
 //toster
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Shop from './pages/Shop'
 
 function App() {
 
@@ -24,8 +25,9 @@ function App() {
       <Route path="/" element={<Landing/>}/>
       <Route path="/Signup" element={<Signup/>}/>
       <Route path="/Login" element = {<Login/>}/>
-      <Route path="/Contacts" element = {<Contacts/>}/>
+      {/* <Route path="/Contacts" element = {<Contacts/>}/> */}
       <Route path="/About" element = {<About/>}/>
+      <Route path="/Shop" element = {<Shop/>}/>
     </Routes>
    
       </BrowserRouter>

@@ -39,14 +39,15 @@ body,html{
     font-family: cursive;
  }
 .container{
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
     margin: 0  auto;
 
     display: flex;
     justify-content: center;
     color:white;
-    background-image: url('https://images.pexels.com/photos/1261731/pexels-photo-1261731.jpeg?auto=compress&cs=tinysrgb&w=600');
-    /* object-position: center top; */
+    background-image: url('public/images/pexels-jill-wellington-1638660-257816.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
     
   
 }
@@ -58,7 +59,7 @@ body,html{
     width: 95%;
     margin: 4vw;
     padding: 2vw;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(71, 71, 71, 0.603);
     backdrop-filter: blur(10px);
     border-radius: 1rem;
 }

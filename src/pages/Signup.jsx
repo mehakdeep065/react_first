@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import './User.css';
 import axios from "axios";
+import {Link} from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -18,7 +19,7 @@ function Signup() {
 
 
   const handleName = (e) => {
-    console.log(e.target.value);
+    console.log(e.target.value);  {/* event.target= <input email......>  */}{/* event.target.value= target only value */}
     setName(e.target.value)
   }
   const handleEmail = (e) => {
@@ -26,7 +27,7 @@ function Signup() {
     setEmail(e.target.value)
   }
   const handlePassword = (e) => {
-    console.log(e.target.value);
+    console.log(e.target.value)
     setPassword(e.target.value)
   }
 
@@ -71,6 +72,10 @@ function Signup() {
             <div className="submit_button" for="submit">
             <button type="submit">Singnup</button>
             </div>
+            <p className="text-2xl">Already have account?{""} {/* {""} for single space */}
+              <Link to={'/Login'}>Login</Link>
+            </p>
+
           </form>
         </div>
       </div>

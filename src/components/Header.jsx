@@ -12,10 +12,10 @@ function Header() {
         text: 'Home',
         link: '/'
       },
-      {
-        text: 'Contacts',
-        link: '/Contacts'
-      },
+      // {
+      //   text: 'Contacts',
+      //   link: '/Contacts'
+      // },
       {
         text:'shop',
         link:'/Shop'
@@ -31,19 +31,21 @@ function Header() {
     
     ],
     logo: {
-      img :"https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      img :"/public/images/logo.png",
       
     },
     style: {
       barStyles: {
-        background: '#000000',
+        background: '#4ADE80',
         display:'flex',
+        
         // justifyContent:'space-batween',
         
       },
       linkStyles:{
         color:'white',  //go to https://bdbose.github.io/responsive-navbar-react/
         fontSize: '19px', 
+        fontFamily:'Impact,Charcoal,sans-serif'
         // justifyContent:'center',
 
 

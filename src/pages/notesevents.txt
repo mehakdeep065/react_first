@@ -1,0 +1,7 @@
+ const handleEmail = (e) => {
+    console.log(e.target.value);
+    setEmail(e.target.value)
+  }
+
+  
+Above code is like a event listener for the input field. When the user types something in the input field, it will call the function `handleEmail` and pass the event object to it.

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Poster() {
 
@@ -11,7 +12,7 @@ function Poster() {
                     
                         <h2 className="md:text-5xl text-4xl font-bold md:leading-snug">Dive into Delights Of Delectable <span className="text-green-400">Food</span></h2>
                         <p className="text-xl text-[#4A4A4A]">Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
-                        <button className=" btn bg-green-400 px-8 py-3 font-semibold text-white rounded-full ">Order now</button>
+                        <button className=" btn bg-green-400 px-8 py-3 font-semibold text-white rounded-full " ><Link to='/Shop'>Order now </Link></button>
                     </div>
                     {/* right part */}
                     <div className="hidden md:block md:w-1/2  relative ">
