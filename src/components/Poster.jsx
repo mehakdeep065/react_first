@@ -6,7 +6,7 @@ function Poster() {
     return (
         <>
             <div className=" mx-0 md:mx-0 section-container bg-gradient-to-r from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
-                <div className=" bg_poster  py-24 flex flex-col md:flex-row justify-between items-center gap-8 ">
+                <div className=" bg_poster  py-24 flex flex-col md:flex-row justify-between  items-center w-[90vw]  ">
                     {/* left part */}
                     <div className="md:w-1/2 space-y-6 px-4  gap-x-10  " >
                     
@@ -16,12 +16,12 @@ function Poster() {
                     </div>
                     {/* right part */}
                     <div className="hidden md:block md:w-1/2  relative ">
-                        <img src="public\images\home\banner.png" alt="not found" />
+                        <img src="images\home\banner.png" alt="not found" />
 
                         <div className="flex justify-between">
                             {/* childimg1 */}
                             <div className=" md:flex hidden gap-4 bg-white w-1/3 rounded-3xl p-1  absolute bottom-1 left-20">
-                                <img src="public\images\home\b-food1.png" alt="not found img" className="rounded-2xl" />
+                                <img src="images\home\b-food1.png" alt="not found img" className="rounded-2xl" />
                                 <div>
                                     <h5 className="mt-2 text-xl">Atta Noodels</h5>
                                     <p className="text-orange-400">$18.00</p>
@@ -29,7 +29,7 @@ function Poster() {
                             </div>
                             {/* childimg2 */}
                             <div className="md:flex hidden gap-4 bg-transparent border border-slate-300 w-1/3 rounded-3xl p-1 align-middle  absolute  bottom-1 left-2/3">
-                                <img src="public\images\home\b-food1.png" alt="not found img" className="rounded-2xl" />
+                                <img src="images\home\b-food1.png" alt="not found img" className="rounded-2xl" />
                                 <div>
                                     <h5 className="mt-2 text-xl">Salad</h5>
                                     <p className="text-orange-400 py-2">$28.00</p>

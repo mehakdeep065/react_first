@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
     <div className="hidden md:block">
-      <div  className="flex  mt-32">
+      <div  className="flex  mt-32 justify-between">
 
         <div className="p-10 text-2xl w-1/3">
           <img src="/public/images/logo.png" alt="logo" className="mb-6 w-32" />
@@ -47,7 +47,7 @@ function Footer() {
         </div>
     </div>
         {/* lastlines */}
-        <div className="flex mt-4 px-8">
+        <div className="flex mt-10 px-8">
           <div className="flex gap-4 mx-4 ">
               <img src="public\images\social\🦆 icon _facebook_.png" alt="facebookImg" className="bg-slate-900 px-4 py-2 rounded-3xl" />
               <img src="public\images\social\🦆 icon _instagram_.png" alt="instaImg"  className="bg-[#EDFFEF] px-4 py-2 rounded-3xl" />
@@ -63,7 +63,7 @@ function Footer() {
       {/* footer for small devices */}
       <div className="relative md:hidden w-[100vw] bg-[#fffefe] mt-10">
       <div className="mx-10  flex flex-col px-4  ">
-            <h1 className="flex text-start m-0 p-0 mt-5 justify-center ">More</h1>
+            <h1 className="flex text-start m-0 p-0 mt-3 justify-center ">More</h1>
             <ul className="pt-5 text-lg flex flex-col gap-2 align-center items-center cursor-pointer" >
               <li><a href="#">Home</a></li>
               <li><a href="#">Offers</a></li>

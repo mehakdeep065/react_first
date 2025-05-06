@@ -47,7 +47,7 @@ function SliderPage() {
         <h5 className='title mx-4 md:mx-20'>Special Dishes</h5>
         <p className='subtitle mx-4 md:w-1/3 md:mx-20'>Standout Dishes From Our Menu</p>
 
-        <div className="slider-container lg:w-[92.1rem]">
+        <div className="slider-container lg:w-[97vw]">
           <Slider {...settings}>
 <div>
               <div className='bg-[#FAFAFA] p-10 my-10 mx-10 rounded-3xl shadow-lg cursor cursor-pointer hover:-translate-y-6 duration-100'>

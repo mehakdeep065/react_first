@@ -3,11 +3,11 @@ import React from 'react'
 function Feedback() {
   return (
     <>
-    <div className='flex  mx-7'>
-        <div>
+    <div className='flex  mx-7 justify-between'>
+   
         <img src="public\images\home\testimonials\testimonials.png" alt=" testimonials" />
 
-        </div>
+      
         <div className='hidden md:flex lg:flex-col text-center   justify-center  w-1/2 px-10 '>
             <h5 className='title py-10'>Testimonials</h5>
             <h3 className='subtitle py-10'>What Our Customers Say About Us</h3>
