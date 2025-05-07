@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: cursive;
+
 }
 body,html{
   width: 100%;
@@ -23,9 +24,8 @@ nav{
   width: 97.6%;
   display: flex;
    padding: 0.5rem 1rem;
-   background-color: var(--primirycolor);
-   align-items: center;
-   justify-content: space-between;
+   background-color: #4ADE80;
+  justify-content: flex-end;
 
    /* position: fixed; */
 
