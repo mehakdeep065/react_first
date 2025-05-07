@@ -86,3 +86,53 @@ nav h1{
   background-color: brown;
 } 
 
+
+/* changed code  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4ADE80;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-family: 'Impact, Charcoal, sans-serif';
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger-menu img {
+  height: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
